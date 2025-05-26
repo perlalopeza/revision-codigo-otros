@@ -38,7 +38,7 @@ table {
   border-radius: 5px;
   overflow: hidden;
   margin-bottom: 2rem;
-  border-collapse: collapse;
+  border-collapse: separate;
 }
 
 td, th {
@@ -91,7 +91,7 @@ input:not([type="checkbox"]):not([type="radio"]), textarea, select {
 }
 
 .success {
-  border: 1px solid red;
+  border: 1px solid rgb(25, 110, 17);
 }
 
 h1,
