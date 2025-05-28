@@ -34,7 +34,7 @@ body {
 
 /* Table Styles */
 
-table {
+.table {
   border-radius: 5px;
   overflow: hidden;
   margin-bottom: 2rem;
@@ -59,6 +59,7 @@ td, th {
 .box, .wrapper {
   box-shadow: 0 0 3px 5px rgba(0,0,0,0.08653);
 }
+
 a {
   color: var(--blue);
   text-decoration-color: var(--yellow);
@@ -76,7 +77,7 @@ a.button, button, input[type="button"] {
   font-size:2rem;
 }
 
-:focus {
+:focus p{
   outline-color: var(--pink);
 }
 
