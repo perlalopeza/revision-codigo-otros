@@ -2,11 +2,11 @@
 // Tenemos un li de productos
 
 const productos = [
-  {nombre: "Zapato negro", tipo: "zapato", color: "negro", img: "./taco-negro.jpg"},
-  {nombre: "Zapato azul", tipo: "zapato", color: "azul", img: "./taco-azul.jpg"},
-  {nombre: "Bota negra", tipo: "bota", color: "negro", img: "./bota-negra.jpg"},
-  {nombre: "Bota azul", tipo: "bota", color: "azul", img: "./bota-azul.jpg"},
-  {nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.jpg"}
+  {nombre: "Zapato negro", tipo: "zapato", color: "negro", img: "./taco-negro.png"},
+  {nombre: "Zapato azul", tipo: "zapato", color: "azul", img: "./taco-azul.png"},
+  {nombre: "Bota negra", tipo: "bota", color: "negro", img: "./bota-negra.png"},
+  {nombre: "Bota azul", tipo: "bota", color: "azul", img: "./bota-azul.png"},
+  {nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.png"}
 ];
 
 const li = document.getElementById("lista-de-productos"); // Se cambio a getElementById

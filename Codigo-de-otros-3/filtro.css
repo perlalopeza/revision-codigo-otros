@@ -1,18 +1,34 @@
+*{
+  background-color: rgb(167, 231, 240);
+}
+
 input {
   width: 500px;
   height: 40px;
   font-size: 18px;
+  
+}
+
+#filtro-input{
+  text-align: center;
+}
+
+
+#titulo{
+  text-align: center;
 }
 
 #lista-de-productos {
-  display: flex
+  display: flex;
+    text-align: center;
+  
 }
 
 .producto {
   width: 200px;
   height: 200px;
   margin: 10px;
-  border: 2px solid black;
+  border: 2px solid rgb(57, 18, 88);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,5 +36,29 @@ input {
 
 .producto img {
   width: 70%;
-  height: auto
+  height: auto;
+  border-radius: 20%;
+}
+
+.filter-button {
+  background: rgb(20, 17, 167);
+  color: rgb(231, 211, 211);
+  padding: 12px 24px;
+  font-size: 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  
+}
+
+.filter-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.filter-button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
